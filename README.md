@@ -9,3 +9,4 @@ Each example is based on real-world use cases.
 - Set (`HashSet`, `TreeSet`)  
 - Map (`HashMap`, `TreeMap`, `LinkedHashMap`)  
 - Queue, Deque, Stack, Properties
+- NavigableSet (`.lower()`,` .higher()`, `.floor()`, `.ceiling()`, `.pollFirst()`)
