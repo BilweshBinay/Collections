@@ -10,7 +10,7 @@ public class ArrayListSort {
         numbers.add(13);
         numbers.add(7);
         numbers.add(18);
-        numbers.add(6);
+        numbers.add(5);
         numbers.add(2);
 
         System.out.println("Before : " + numbers);
