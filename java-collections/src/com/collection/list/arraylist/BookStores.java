@@ -4,6 +4,7 @@ import com.collection.list.arraylist.book.BookDto;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
@@ -12,8 +13,8 @@ public class BookStores {
     public static void main(String[] args) {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/M/d");
 
-//        List<BookDto> books = new ArrayList<>();
-        List<BookDto> books = new LinkedList<>();
+        List<BookDto> books = new ArrayList<>();
+//        List<BookDto> books = new LinkedList<>();
 
         BookDto book = new BookDto();
         book.setBookId(101);
